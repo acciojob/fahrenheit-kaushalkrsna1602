@@ -1,5 +1,6 @@
 function toFahrenheit(celsius) {
- // Write your code here
+    // Formula to convert Celsius to Fahrenheit
+    return (celsius * 9/5) + 32;
 }
 
 // Do not change the code below
