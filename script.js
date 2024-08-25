@@ -1,6 +1,6 @@
 function toFahrenheit(celsius) {
-    // Formula to convert Celsius to Fahrenheit
-    return (celsius * 9/5) + 32;
+    // Convert Celsius to Fahrenheit using the formula and round to two decimal places
+    return ((celsius * 9/5) + 32).toFixed(2);
 }
 
 // Do not change the code below
